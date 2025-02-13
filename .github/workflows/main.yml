@@ -2,7 +2,7 @@ name: Send Bonjour Message
 
 on:
   schedule:
-    - cron: '* * * * *'  # Runs every minute
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
   workflow_dispatch:  # Allows you to manually trigger the workflow
 
 jobs:
